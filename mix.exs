@@ -1,3 +1,4 @@
+
 defmodule NioGoogleAuthenticator.Mixfile do
   use Mix.Project
 
@@ -18,7 +19,7 @@ defmodule NioGoogleAuthenticator.Mixfile do
 
   defp deps do
     [
-      {:ecto, "~> 2.0"},
+      {:ecto, "~> 3.0"},
       {:pot, "~> 0.9.3"},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
